@@ -1,0 +1,5 @@
+{% if cookiecutter.requires_database_support == 'yes' -%}
+michelle obama,555 Mass Ave
+dat duong,123 Test St
+lekh poudel,321 Fake Rd
+{%- endif %}

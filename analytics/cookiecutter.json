@@ -1,0 +1,8 @@
+{
+    "package_name": "What's the name of your new project?",
+    "type_of_work": ["project", "utility"],
+    "project_description": "Describe in a short sentence what your project does (< 100 characters)",
+    "gitlab_private_token": "What's your GitLab private token? (press return/leave empty if you don't know)",
+    "project_repo": "{{ cookiecutter.package_name.lower().replace(' ', '_').replace('_', '-') }}",
+    "requires_database_support": ["yes", "no"]
+}
